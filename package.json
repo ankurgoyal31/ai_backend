@@ -1,0 +1,21 @@
+{
+  "name": "chat_ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node back/sr.js",
+    "dev": "nodemon back/sr.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tavily/core": "^0.7.1",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "groq-sdk": "^0.37.0",
+    "mongodb": "^6.21.0",
+    "pinecone": "^0.1.0"
+  }
+}
